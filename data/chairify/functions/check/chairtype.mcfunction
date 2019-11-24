@@ -6,6 +6,7 @@
 execute if block ~ ~-0.4 ~ #chairify:seatable_blocks run tag @s add cf_type_block
 execute if block ~ ~-0.4 ~ #minecraft:stairs[half=top] run tag @s add cf_type_block
 execute if block ~ ~-0.4 ~ #minecraft:slabs[type=top] run tag @s add cf_type_block
+execute if block ~ ~-0.4 ~ #minecraft:slabs[type=double] run tag @s add cf_type_block
 
 # if slab
 execute if block ~ ~-0.4 ~ #minecraft:slabs[type=bottom] run tag @s add cf_type_slab
