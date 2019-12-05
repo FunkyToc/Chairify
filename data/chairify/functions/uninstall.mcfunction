@@ -15,3 +15,5 @@ execute as @a run function chairify:check:reset
 #team remove cf_chair
 
 datapack disable "file/Chairify"
+datapack disable "file/Chairify-master"
+datapack disable "file/Chairify-1.13"
