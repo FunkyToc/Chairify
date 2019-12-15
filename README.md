@@ -2,7 +2,7 @@
 A Minecraft Datapack to allow players to create functionals chairs on blocks, stairs & slabs.
 
 # Requires 
-- Minecraft 1.13/1.14/1.15
+- Minecraft 1.14+
 
 # Use
 1. Download the package and unzip it
