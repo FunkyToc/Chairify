@@ -16,5 +16,8 @@ team add cf_chair
 team modify cf_chair collisionRule never
 team modify cf_chair seeFriendlyInvisibles false
 
+# Re apply invisibility
+function chairify:hud/chair_invisibility
+
 # Properties
 function chairify:properties
