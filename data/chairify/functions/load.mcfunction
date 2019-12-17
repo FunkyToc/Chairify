@@ -13,8 +13,12 @@ scoreboard objectives add RemoveChair trigger
 
 # Teams
 team add cf_chair
-team modify cf_chair collisionRule never
+team modify cf_chair collisionRule pushOwnTeam
 team modify cf_chair seeFriendlyInvisibles false
+team modify cf_chair friendlyFire false
+
+# Re apply invisibility
+function chairify:hud/chair_invisibility
 
 # Properties
 function chairify:properties

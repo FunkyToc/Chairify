@@ -17,3 +17,5 @@ execute as @a run function chairify:check:reset
 datapack disable "file/Chairify"
 datapack disable "file/Chairify-master"
 datapack disable "file/Chairify-1.13"
+datapack disable "file/Chairify-1.14"
+datapack disable "file/Chairify-1.15"
