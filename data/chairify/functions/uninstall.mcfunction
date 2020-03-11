@@ -5,6 +5,7 @@
 scoreboard objectives remove O_CF_Triggers
 scoreboard objectives remove O_CF_Logs
 scoreboard objectives remove O_CF_ChairShow
+scoreboard objectives remove O_CF_Collision
 scoreboard objectives remove CreateChair
 scoreboard objectives remove RemoveChair
 
