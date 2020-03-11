@@ -5,6 +5,7 @@
 scoreboard objectives remove O_CF_Triggers
 scoreboard objectives remove O_CF_Logs
 scoreboard objectives remove O_CF_ChairShow
+scoreboard objectives remove O_CF_Collision
 scoreboard objectives remove CreateChair
 scoreboard objectives remove RemoveChair
 
@@ -18,3 +19,4 @@ datapack disable "file/Chairify"
 datapack disable "file/Chairify-master"
 datapack disable "file/Chairify-1.13"
 datapack disable "file/Chairify-1.14"
+datapack disable "file/Chairify-1.15"

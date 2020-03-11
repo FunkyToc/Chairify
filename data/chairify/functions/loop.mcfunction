@@ -3,7 +3,7 @@
 
 
 # Join team to avoid chairs-players collision
-team join cf_chair @a[team=!cf_chair]
+execute if score ChairifyOption O_CF_Collision matches 1 run team join cf_chair @a[team=!cf_chair]
 
 # Orientation listeners
 function chairify:orientation/orientation
