@@ -13,4 +13,4 @@ execute if entity @s[y_rotation=-67.51..-22.49] run tag @s add cf_oriented_south
 
 # Log
 execute unless entity @s[tag=cf_oriented_south] unless entity @s[tag=cf_oriented_southwest] unless entity @s[tag=cf_oriented_west] unless entity @s[tag=cf_oriented_northwest] unless entity @s[tag=cf_oriented_north] unless entity @s[tag=cf_oriented_northeast] unless entity @s[tag=cf_oriented_east] unless entity @s[tag=cf_oriented_southeast] run tag @s add cf_canceled
-execute if entity @s[tag=cf_canceled] run tellraw @s ["",{"text":"[","color":"gray"},{"text":"chairify","color":"gold"},{"text":"] Chair orientation error detection","color":"gray"}] 
+execute if entity @s[tag=cf_canceled] run tellraw @s ["",{"text":"[","color":"gold"},{"text":"chairify","color":"blue"},{"text":"]","color":"gold"},{"text":" Chair orientation error detection","color":"gray"}] 
