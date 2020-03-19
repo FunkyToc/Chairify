@@ -22,4 +22,4 @@ execute as @s[tag=cf_oriented_southeast] at @s align xz positioned ~0.5 ~-2 ~0.5
 tag @e remove cf_fresh
 
 # Log
-execute if score ChairifyOption O_CF_Logs matches 1 unless entity @s[tag=cf_canceled] run tellraw @s ["",{"text":"[","color":"gray"},{"text":"chairify","color":"gold"},{"text":"] Chair created successfully","color":"gray"}] 
+execute if score ChairifyOption O_CF_Logs matches 1 unless entity @s[tag=cf_canceled] run tellraw @s ["",{"text":"[","color":"gold"},{"text":"chairify","color":"blue"},{"text":"]","color":"gold"},{"text":" Chair created successfully","color":"gray"}]
