@@ -27,3 +27,10 @@ scoreboard players set ChairifyOption O_CF_Logs 1
 # Show chair placement with particules
 # If set to 0 : chairs will be totally invisible
 scoreboard players set ChairifyOption O_CF_ChairShow 1
+
+# Avoid chair collision with player
+# If set to 0 : chairs push back the player
+# /!\ CAUTION : enable this option will put constantly every player in a team /!\
+# /!\ CAUTION : this have a important chance to break other datapack, especially PvP datapack /!\
+# /!\ CAUTION : I personnaly recommend to NOT put this option ON /!\
+scoreboard players set ChairifyOption O_CF_Collision 0

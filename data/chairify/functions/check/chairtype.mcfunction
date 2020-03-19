@@ -19,4 +19,4 @@ execute if block ~ ~-0.4 ~ #minecraft:stairs[half=bottom] if block ~ ~-0.4 ~ #mi
 
 # Log
 execute unless entity @s[tag=cf_type_block] unless entity @s[tag=cf_type_slab] unless entity @s[tag=cf_type_stair_north] unless entity @s[tag=cf_type_stair_east] unless entity @s[tag=cf_type_stair_south] unless entity @s[tag=cf_type_stair_west] run tag @s add cf_canceled
-execute if entity @s[tag=cf_canceled] run tellraw @s ["",{"text":"[","color":"gray"},{"text":"chairify","color":"gold"},{"text":"] Unable to create a chair on this ground material","color":"gray"}] 
+execute if entity @s[tag=cf_canceled] run tellraw @s ["",{"text":"[","color":"gold"},{"text":"chairify","color":"blue"},{"text":"]","color":"gold"},{"text":" Unable to create a chair on this ground material","color":"gray"}] 
