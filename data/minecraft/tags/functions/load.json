@@ -1,5 +1,6 @@
 {
     "values": [
-        "chairify:load"
+        "fktool:load",
+        "cf:load"
     ]
 }

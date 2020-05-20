@@ -1,0 +1,1 @@
+execute unless entity @s[nbt={RootVehicle:{Entity:{Tags:["cf_chair"]}}}] at @e[tag=cf_chair,type=minecraft:horse,distance=..4] run particle minecraft:end_rod ~ ~1.4 ~ 0.14 0.1 0.14 0.01 1 normal @s

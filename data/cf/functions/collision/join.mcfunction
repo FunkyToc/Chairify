@@ -1,0 +1,1 @@
+team join cf_chair @s

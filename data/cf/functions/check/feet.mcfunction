@@ -1,0 +1,2 @@
+#execute align xz positioned ~0.5 ~0.55 ~0.5 unless block ~ ~ ~ minecraft:air run tag @s add cf_canceled
+execute align xz positioned ~0.5 ~0.55 ~0.5 unless block ~ ~ ~ minecraft:air run tellraw @s ["",{"text":"[chairify]","color":"gold","bold":true},{"text":" Warning : feets level block is busy","color":"gray"}]

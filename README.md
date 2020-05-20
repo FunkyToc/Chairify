@@ -1,8 +1,8 @@
 # Chairify
-A Minecraft Datapack to allow players to create functionals chairs on blocks, stairs & slabs.
+A Minecraft Datapack to allow players to create functionals chairs spots in the world.
 
 # Requires 
-- Minecraft 1.15+
+- Minecraft 1.13 / 1.14 / 1.15 / 1.16
 
 # Use
 1. Download the package and unzip it
