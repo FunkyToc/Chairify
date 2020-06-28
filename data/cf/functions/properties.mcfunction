@@ -23,8 +23,8 @@ scoreboard players set CF_Triggers CF_Option 1
 scoreboard players set CF_ChairShow CF_Option 1
 
 # Avoid chair collision with player
-# 0 : chair's collision with entities
-# 1 : no more collision
-# /!\ CAUTION : enable this option will put every player in a team /!\
+# /!\ CAUTION : enable this option will put every player in a specific team /!\
 # /!\ CAUTION : this have an important chance to break other datapack, especially PvP datapack /!\
+# 0 : chairs collide with entities
+# 1 : no more collision
 scoreboard players set CF_Collision CF_Option 0

@@ -1,5 +1,7 @@
 {
 	"values": [
+		"#cf:seatable_blocks_1.13",
+		"#cf:seatable_blocks_1.14",
 		"minecraft:honey_block",
 		"minecraft:honeycomb_block",
 		"minecraft:bee_nest",
