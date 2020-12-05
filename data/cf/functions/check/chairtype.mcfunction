@@ -1,14 +1,15 @@
 # if block
-execute if score McVersion fktool matches 11300..11399 if block ~ ~-0.4 ~ #cf:seatable_blocks_1.13 run tag @s add cf_type_block
-execute if score McVersion fktool matches 11400..11499 if block ~ ~-0.4 ~ #cf:seatable_blocks_1.14 run tag @s add cf_type_block
-execute if score McVersion fktool matches 11500..11599 if block ~ ~-0.4 ~ #cf:seatable_blocks_1.15 run tag @s add cf_type_block
-execute if score McVersion fktool matches 11600..11699 if block ~ ~-0.4 ~ #cf:seatable_blocks_1.16 run tag @s add cf_type_block
+execute if score McVersion fktool matches 11300 if block ~ ~-0.4 ~ #cf:seatable_blocks_1.13 run tag @s add cf_type_block
+execute if score McVersion fktool matches 11400 if block ~ ~-0.4 ~ #cf:seatable_blocks_1.14 run tag @s add cf_type_block
+execute if score McVersion fktool matches 11500 if block ~ ~-0.4 ~ #cf:seatable_blocks_1.15 run tag @s add cf_type_block
+execute if score McVersion fktool matches 11600.. if block ~ ~-0.4 ~ #cf:seatable_blocks_1.16 run tag @s add cf_type_block
 execute if block ~ ~-0.4 ~ #minecraft:stairs[half=top] run tag @s add cf_type_block
 execute if block ~ ~-0.4 ~ #minecraft:slabs[type=top] run tag @s add cf_type_block
 execute if block ~ ~-0.4 ~ #minecraft:slabs[type=double] run tag @s add cf_type_block
 
 # if slab
 execute if block ~ ~-0.4 ~ #minecraft:slabs[type=bottom] run tag @s add cf_type_slab
+execute if score McVersion fktool matches 11400.. if block ~ ~-0.4 ~ #minecraft:beds run tag @s add cf_type_slab
 
 # if stairs
 execute if block ~ ~-0.4 ~ #minecraft:stairs[half=bottom] if block ~ ~-0.4 ~ #minecraft:stairs[facing=north] run tag @s add cf_type_stair_north

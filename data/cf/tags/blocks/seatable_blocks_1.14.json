@@ -1,6 +1,7 @@
 {
 	"values": [
 		"#cf:seatable_blocks_1.13",
+		"#minecraft:beds",
 		"minecraft:barrel",
 		"minecraft:blast_furnace",
 		"minecraft:cartography_table",
