@@ -7,8 +7,12 @@ function cf:properties
 effect give @e[type=minecraft:horse,tag=cf_chair] minecraft:invisibility 999999 0 true
 execute if score McVersion fktool matches 11500.. run function cf:schedule_1m
 execute if score McVersion fktool matches 11500.. run function cf:schedule_20m
-execute if score CF_Collision CF_Option matches 1 run function cf:collision/create_team
-execute if score CF_Collision CF_Option matches 0 run function cf:collision/remove_team
+
+team add cf_chair
+team modify cf_chair collisionRule never
+team modify cf_chair seeFriendlyInvisibles false
+team modify cf_chair friendlyFire false
+
 scoreboard players reset @a CreateChair
 scoreboard players reset @a RemoveChair
 
