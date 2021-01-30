@@ -12,6 +12,11 @@
 
 ## CONFIG
 
+# Allow everyone to sit (temporary)
+# 0 : /trigger ChairSir disabled
+# 1 : every player can use /trigger ChairSir
+scoreboard players set CF_ChairSit CF_Option 1
+
 # Allow everyone to create chairs
 # 0 : only admin can use Chairify functions
 # 1 : every player can use Chairify triggers

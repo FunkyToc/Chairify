@@ -1,6 +1,7 @@
 scoreboard objectives add CF_Option dummy
 scoreboard objectives add ChairCreate trigger
 scoreboard objectives add ChairRemove trigger
+scoreboard objectives add ChairSit trigger
 
 function cf:properties
 function cf:enable

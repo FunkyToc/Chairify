@@ -9,4 +9,4 @@ execute as @e[tag=cf_chair,tag=cf_oriented_southeast] run function cf:orientatio
 
 function cf:orientation/reset
 
-tag @s remove cf_orientation
+tag @a remove cf_orientation

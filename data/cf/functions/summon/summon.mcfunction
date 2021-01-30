@@ -18,6 +18,7 @@ execute as @s[tag=cf_oriented_southeast] at @s align xz positioned ~0.5 ~-2 ~0.5
 schedule function cf:orientation/orientation 1t
 
 # Reset
+execute if entity @s[tag=cf_sit] run tag @e[tag=cf_fresh,limit=2,sort=nearest] add cf_sit
 tag @e remove cf_fresh
 
 # Log

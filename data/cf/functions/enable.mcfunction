@@ -1,4 +1,5 @@
-scoreboard players enable @a ChairCreate
-scoreboard players enable @a ChairRemove
+execute if score CF_Triggers CF_Option matches 1 run scoreboard players enable @a ChairCreate
+execute if score CF_Triggers CF_Option matches 1 run scoreboard players enable @a ChairRemove
+execute if score CF_ChairSit CF_Option matches 1 run scoreboard players enable @a ChairSit
 
-execute if score CF_Triggers CF_Option matches 1 run schedule function cf:enable 1s replace
+schedule function cf:enable 1s replace
