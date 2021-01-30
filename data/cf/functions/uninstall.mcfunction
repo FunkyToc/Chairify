@@ -1,6 +1,6 @@
 scoreboard objectives remove CF_Option
-scoreboard objectives remove CreateChair
-scoreboard objectives remove RemoveChair
+scoreboard objectives remove ChairCreate
+scoreboard objectives remove ChairRemove
 
 execute as @a run function cf:check/reset
 
@@ -12,3 +12,5 @@ function fktool:uninstall
 
 datapack disable "file/Chairify"
 datapack disable "file/Chairify-master"
+
+reload

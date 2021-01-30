@@ -1,2 +1,2 @@
 function cf:chair/removeone
-scoreboard players set @s RemoveChair 0
+scoreboard players set @s ChairRemove 0

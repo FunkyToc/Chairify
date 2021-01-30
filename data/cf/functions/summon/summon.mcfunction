@@ -15,6 +15,7 @@ execute as @s[tag=cf_oriented_north] at @s align xz positioned ~0.5 ~-2 ~0.5 run
 execute as @s[tag=cf_oriented_northeast] at @s align xz positioned ~0.5 ~-2 ~0.5 run tag @e[tag=cf_chair,tag=cf_fresh] add cf_oriented_northeast
 execute as @s[tag=cf_oriented_east] at @s align xz positioned ~0.5 ~-2 ~0.5 run tag @e[tag=cf_chair,tag=cf_fresh] add cf_oriented_east
 execute as @s[tag=cf_oriented_southeast] at @s align xz positioned ~0.5 ~-2 ~0.5 run tag @e[tag=cf_chair,tag=cf_fresh] add cf_oriented_southeast
+schedule function cf:orientation/orientation 1t
 
 # Reset
 tag @e remove cf_fresh
