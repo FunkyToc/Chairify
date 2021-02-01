@@ -17,7 +17,7 @@
 # 1 : every player can use /trigger ChairSir
 scoreboard players set CF_ChairSit CF_Option 1
 
-# Allow everyone to create chairs
+# Allow everyone to create/remove chairs
 # 0 : only admin can use Chairify functions
 # 1 : every player can use Chairify triggers
 scoreboard players set CF_Triggers CF_Option 1
