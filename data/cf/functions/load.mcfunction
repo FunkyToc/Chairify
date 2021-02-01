@@ -5,7 +5,7 @@ scoreboard objectives add ChairSit trigger
 
 function cf:properties
 function cf:enable
-function cf:particule/chair_particule
+function cf:schedules
 function cf:tick
 
 team add cf_chair
