@@ -17,6 +17,6 @@ effect give @e[type=minecraft:horse,tag=cf_chair] minecraft:invisibility 999999 
 scoreboard players reset @a ChairCreate
 scoreboard players reset @a ChairRemove
 
-tellraw @a ["",{"text":"Chairify","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":"Develop with love by FunkyToc"}},{"text":" enabled ! "},{"text":"More infos on "},{"text":"planetcraft.com","color":"dark_purple","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/funkytoc/submissions/data-packs/"}}]
-execute if score McVersion fktool matches ..11499 run tellraw @a ["",{"text":"[Chairify]","bold":true,"color":"gold"},{"text":" Version 1.14 or inferior detected !"}]
-execute if score McVersion fktool matches ..11499 run tellraw @a ["",{"text":"[Chairify]","bold":true,"color":"gold"},{"text":" This datapack needs 1.15 at least."}]
+tellraw @a ["",{"text":"[Chairify]","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":"Developed with love by FunkyToc"}},{"text":" enabled ! "},{"text":"More infos on "},{"text":"planetcraft.com","color":"dark_purple","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/funkytoc/submissions/data-packs/"}}]
+execute if score McVersion fktool matches ..11499 run tellraw @a ["",{"text":"[Chairify]","bold":true,"color":"gold"},{"text":" Version 1.14 or inferior detected !","color":"red"}]
+execute if score McVersion fktool matches ..11499 run tellraw @a ["",{"text":"[Chairify]","bold":true,"color":"gold"},{"text":" This datapack needs 1.15 at least.","color":"red"}]
