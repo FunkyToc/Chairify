@@ -1,8 +1,8 @@
 # Chairify
 A Minecraft Datapack to allow players to create functionals chairs spots in the world.
 
-# Requires 
-- Minecraft 1.15+ / 1.16+
+# Requires
+- Minecraft 1.15+
 
 # Use
 1. Download the package and unzip it
@@ -10,13 +10,14 @@ A Minecraft Datapack to allow players to create functionals chairs spots in the 
 3. Launch the game/server and play your map.
 
 - Create a chair : /trigger ChairCreate
+- Create a temporary chair : /trigger ChairSit
 - Remove a chair : /trigger ChairRemove
 - Uninstall : /function cf:uninstall
 
 # Author
-- Name : FunkyToc 
-- Website : http://naturize.fr
-- Contact : http://naturize.fr/contact
+- Name : FunkyToc
+- Website : https://funkytoc.fr
+- Contact : https://funkytoc.fr/contact
 
-# Thanks 
+# Thanks
 ...
