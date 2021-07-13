@@ -12,7 +12,7 @@ team add cf.chair
 team modify cf.chair collisionRule never
 team modify cf.chair seeFriendlyInvisibles false
 team modify cf.chair friendlyFire false
-effect give @e[type=minecraft:horse,tag=cf.chair] minecraft:invisibility 999999 0 true
+effect give @e[predicate=cf:chair_horse] minecraft:invisibility 999999 0 true
 
 scoreboard players reset @a ChairCreate
 scoreboard players reset @a ChairRemove

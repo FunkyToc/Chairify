@@ -1,2 +1,2 @@
-execute if entity @e[tag=cf.chair] run tellraw @s ["",{"text":"[Chairify] ","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":[{"text":"Developed with love by "},{"text":"FunkyToc","color":"dark_purple","bold":true}]}},{"text":"Chairs removed successfully","color":"gray"}] 
-kill @e[tag=cf.chair]
+execute if entity @e[predicate=cf:chair] run tellraw @s ["",{"text":"[Chairify] ","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":[{"text":"Developed with love by "},{"text":"FunkyToc","color":"dark_purple","bold":true}]}},{"text":"Chairs removed successfully","color":"gray"}] 
+kill @e[predicate=cf:chair]

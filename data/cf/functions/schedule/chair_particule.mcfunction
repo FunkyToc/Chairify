@@ -1,3 +1,3 @@
-execute if score ChairParticules cf.options matches 1 as @a at @s unless entity @s[nbt={RootVehicle:{Entity:{Tags:["cf.chair"]}}}] at @e[type=minecraft:horse,tag=cf.chair,distance=..4] run particle minecraft:end_rod ~ ~1.5 ~ 0.14 0.1 0.14 0.01 2 normal @s
+execute if score ChairParticules cf.options matches 1 as @a at @s unless entity @s[predicate=cf:player_sit] at @e[predicate=cf:chair_horse,distance=..5] run particle minecraft:end_rod ~ ~1.5 ~ 0.14 0.1 0.14 0.01 2 normal @s
 
-schedule function cf:schedule/chair_particule 10t replace
+schedule function cf:schedule/chair_particule 15t replace

@@ -1,2 +1,2 @@
-execute positioned ~ ~-1.3 ~ if entity @e[tag=cf.chair,distance=..1,sort=nearest,limit=2] run tellraw @s ["",{"text":"[Chairify] ","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":[{"text":"Developed with love by "},{"text":"FunkyToc","color":"dark_purple","bold":true}]}},{"text":"Chair removed successfully","color":"gray"}] 
-execute positioned ~ ~-1.3 ~ run kill @e[tag=cf.chair,distance=..1,sort=nearest,limit=2]
+execute positioned ~ ~-1.3 ~ if entity @e[predicate=cf:chair,distance=..1,sort=nearest,limit=2] run tellraw @s ["",{"text":"[Chairify] ","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":[{"text":"Developed with love by "},{"text":"FunkyToc","color":"dark_purple","bold":true}]}},{"text":"Chair removed successfully","color":"gray"}] 
+execute positioned ~ ~-1.3 ~ run kill @e[predicate=cf:chair,distance=..1,sort=nearest,limit=2]

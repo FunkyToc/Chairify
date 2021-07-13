@@ -1,1 +1,1 @@
-data merge entity @s[tag=cf.chair] {Rotation:[-45f,0f]}
+data merge entity @s[predicate=cf:chair_horse] {Rotation:[-45f,0f]}
