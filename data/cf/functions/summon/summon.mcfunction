@@ -21,5 +21,9 @@ schedule function cf:orientation/orientation 1t
 execute if entity @s[tag=cf.sit] run tag @e[predicate=cf:chair_fresh,limit=2,sort=nearest] add cf.sit
 tag @e[predicate=cf:chair_fresh] remove cf.fresh
 
+# count
+function cf:schedule/chair_count
+execute unless entity @s[tag=cf.sit] unless entity @s[tag=cf.canceled] run scoreboard players add TotalChairs cf.options 1
+
 # Log
-tellraw @s[tag=!cf.canceled] ["",{"text":"[Chairify] ","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":[{"text":"Developed with love by "},{"text":"FunkyToc","color":"dark_purple","bold":true}]}},{"text":"Chair created successfully","color":"gray"}] 
+tellraw @s[tag=!cf.canceled] ["",{"text":"[Chairify] ","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":[{"text":"Developed with love by "},{"text":"FunkyToc","color":"dark_purple","bold":true}]}},{"text":"Chair created successfully","color":"green"}]

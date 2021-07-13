@@ -6,4 +6,4 @@ execute if score AllowCreateRemove cf.options matches 0 run scoreboard players r
 execute if score AllowCreateRemove cf.options matches 0 run scoreboard players reset @a ChairRemove
 execute if score AllowTriggerSit cf.options matches 0 run scoreboard players reset @a ChairSit
 
-schedule function cf:enable 1s replace
+schedule function cf:schedule/enable 1s replace
