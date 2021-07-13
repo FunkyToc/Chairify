@@ -1,3 +1,3 @@
-tag @s add cf_force
+tag @s add cf.force
 function cf:chair/create
-tag @s remove cf_force
+tag @s remove cf.force
