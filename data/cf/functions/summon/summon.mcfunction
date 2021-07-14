@@ -7,14 +7,14 @@ execute as @s[tag=cf.type.stair.south] at @s run function cf:summon/chair_stair_
 execute as @s[tag=cf.type.stair.west] at @s run function cf:summon/chair_stair_west
 
 # Orientation tag
-execute as @s[tag=cf.oriented.south] at @s align xz positioned ~0.5 ~-2 ~0.5 run tag @e[predicate=cf:chair_fresh] add cf.oriented.south
-execute as @s[tag=cf.oriented.southwest] at @s align xz positioned ~0.5 ~-2 ~0.5 run tag @e[predicate=cf:chair_fresh] add cf.oriented.southwest
-execute as @s[tag=cf.oriented.west] at @s align xz positioned ~0.5 ~-2 ~0.5 run tag @e[predicate=cf:chair_fresh] add cf.oriented.west
-execute as @s[tag=cf.oriented.northwest] at @s align xz positioned ~0.5 ~-2 ~0.5 run tag @e[predicate=cf:chair_fresh] add cf.oriented.northwest
-execute as @s[tag=cf.oriented.north] at @s align xz positioned ~0.5 ~-2 ~0.5 run tag @e[predicate=cf:chair_fresh] add cf.oriented.north
-execute as @s[tag=cf.oriented.northeast] at @s align xz positioned ~0.5 ~-2 ~0.5 run tag @e[predicate=cf:chair_fresh] add cf.oriented.northeast
-execute as @s[tag=cf.oriented.east] at @s align xz positioned ~0.5 ~-2 ~0.5 run tag @e[predicate=cf:chair_fresh] add cf.oriented.east
-execute as @s[tag=cf.oriented.southeast] at @s align xz positioned ~0.5 ~-2 ~0.5 run tag @e[predicate=cf:chair_fresh] add cf.oriented.southeast
+execute as @s[tag=cf.oriented.south] at @s align xz positioned ~.5 ~-2 ~.5 run tag @e[predicate=cf:chair_fresh] add cf.oriented.south
+execute as @s[tag=cf.oriented.southwest] at @s align xz positioned ~.5 ~-2 ~.5 run tag @e[predicate=cf:chair_fresh] add cf.oriented.southwest
+execute as @s[tag=cf.oriented.west] at @s align xz positioned ~.5 ~-2 ~.5 run tag @e[predicate=cf:chair_fresh] add cf.oriented.west
+execute as @s[tag=cf.oriented.northwest] at @s align xz positioned ~.5 ~-2 ~.5 run tag @e[predicate=cf:chair_fresh] add cf.oriented.northwest
+execute as @s[tag=cf.oriented.north] at @s align xz positioned ~.5 ~-2 ~.5 run tag @e[predicate=cf:chair_fresh] add cf.oriented.north
+execute as @s[tag=cf.oriented.northeast] at @s align xz positioned ~.5 ~-2 ~.5 run tag @e[predicate=cf:chair_fresh] add cf.oriented.northeast
+execute as @s[tag=cf.oriented.east] at @s align xz positioned ~.5 ~-2 ~.5 run tag @e[predicate=cf:chair_fresh] add cf.oriented.east
+execute as @s[tag=cf.oriented.southeast] at @s align xz positioned ~.5 ~-2 ~.5 run tag @e[predicate=cf:chair_fresh] add cf.oriented.southeast
 schedule function cf:orientation/orientation 1t
 
 # Reset
